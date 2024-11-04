@@ -164,14 +164,12 @@
    "cell_type": "markdown",
    "metadata": {},
    "source": [
-    "The dataset includes 205 rows and 26 columns. It has no missing values and no duplicate values, ensuring data quality for machine learning purposes.\n",
-    "The dataset originally contains 25 covariates, but some of them are redundant or challenging to interpret. For example, features like car\n",
-    "width, car height, car length, and car weight all\n",
-    "represent similar car's attributes. To reduce redundancy, we decided to\n",
-    "keep one of these attributes that best represents the car's size. Additionally, features such as car_ID and symboling are\n",
-    "difficult to interpret and do not appear to provide meaningful\n",
-    "information about the car's characteristics. These features were deemed irrelevant to our analysis, so we drop these features. After filtering, the dataset now contains 14 relevant features(includes\n",
-    "output), improving both interpretability and focus for analysis.\n",
+    "The dataset originally contains 26 features, but some of them are redundant or challenging to interpret. \n",
+    "For example, features like \"car width\", \"car height\", \"car length\", and \"car weight\" all represent similar car's attributes. To reduce redundancy, we decided to keep one of these attributes that best represents the car's size.\n",
+    "\n",
+    "Additionally, features such as \"car_ID\" and \"symboling\" are difficult to interpret and do not appear to provide meaningful information about the car's characteristics. These features were deemed irrelevant to our analysis, so we drop these features.\n",
+    "\n",
+    "After filtering, the dataset now contains 14 relevant features(includes output), improving both interpretability and focus for analysis.\n",
     "\n"
    ]
   },
@@ -201,11 +199,11 @@
     "|price | Numerical | the price of the car | US dollar |\n",
     "\n",
     "\n",
-    "*  What are the key features that contribute to the highest accuracy of car price predictions in a multiple linear regression model using forward selection and cross validation?\n",
+    "* What are the key features that contribute the most to the accuracy of car price predictions in a multiple linear regression model using forward selection?\n",
     "\n",
     "\n",
     "\n",
-    " The Chinese automobile company Geely Auto aims to enter the U.S. market by establishing a local manufacturing facility and producing cars domestically. A high accuracy predictive model can help Geely Auto to determine their pricing strategy based on the specific car features in the competitive U.S. market. This analysis will not only identify which features American consumers value the most but also demonstrate how these features impact car prices. By understanding the influence of car features, Geely Auto can succesfully price their new cars to match with market expectations, ensuring their entry into the U.S. market is aligned with consumer preferences.\n"
+    "\n"
    ]
   },
   {
